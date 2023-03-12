@@ -1,0 +1,71 @@
+.hero-gradient{
+    background: linear-gradient(225deg, #ba6223 28%,#66ebff 65%,#57ff45 65%,#4d4aff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 800% 800%;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 15%}
+    50%{background-position:100% 86%}
+    100%{background-position:0% 15%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 15%}
+    50%{background-position:100% 86%}
+    100%{background-position:0% 15%}
+}
+.text-gradient{
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(0deg, #ffffff 23%,#dadada 42%,#ffffff 63%,#cfcfcf 74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+
+}
+.blue__gradient {
+    background: linear-gradient(180deg, rgba(51, 48, 0, 0.251) 0%, #1585a76c 100%);
+    filter: blur(123px);
+    background-size: 400% 400%;
+
+    -webkit-animation: blueanimation 13s ease infinite;
+    animation: blueanimation 13s ease infinite;
+  }
+  @-webkit-keyframes blueanimation {
+    0%{background-position:1% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:1% 0%}
+}
+@keyframes blueanimation {
+    0%{background-position:1% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:1% 0%}
+}
+  
+  .purple__gradient{
+    background: linear-gradient(90deg, #dab8ffc8 0%, #a867fcb5 100%);
+    filter: blur(280px);
+    background-size: 400% 400%;
+    -webkit-animation: purpleanimation 5s ease infinite;
+    animation: purpleanimation 5s ease infinite;
+    transition: all;
+    transition-duration: 2s;
+  }
+  @-webkit-keyframes purpleanimation {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+@keyframes purpleanimation {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+  .white__gradient {
+    background: rgba(0, 0, 0, 0.6);
+    filter: blur(750px);
+  }
