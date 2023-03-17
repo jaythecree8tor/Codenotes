@@ -30,7 +30,7 @@ const Markdown = ({ acctive, open, onClose }) => {
 					</div>
 					<div className='mt-6'>
 						<div>
-							<ReactMarkdown className='box2 font-cascadiaCode leading-5 text-[#ffffff] flex-wrap '>
+							<ReactMarkdown className='box2 font-cascadiaCode leading-5 text-[#000000] flex-wrap '>
 								{acctive.body}
 							</ReactMarkdown>
 						</div>

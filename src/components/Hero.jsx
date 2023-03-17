@@ -6,7 +6,7 @@ import '../styles/hero.css'
 import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
-    <div className='relative bg-black justify-center text-center px-20 max-[700px]:px-14  max-[700px]:py-[250px] max-[350px]:py-[150px]  py-[300px] overflow-hidden h-[100svh] '>
+    <div className='relative bg-black justify-center text-center px-20 max-[700px]:px-14  max-[700px]:py-[180px] max-[350px]:py-[150px]  py-[300px] overflow-hidden h-[100svh] '>
          <motion.div
       variants={staggerContainer}
       initial="hidden"

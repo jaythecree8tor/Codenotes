@@ -36,7 +36,7 @@ const Signup = () => {
   return (
     <>
       <div className=''>
-         <div className=' bg-[#000000] fixed w-full px-20 py-36 max-[600px]:px-5 h-screen'>
+         <div className=' bg-[#000000] fixed w-full px-20 pb-36 max-[600px]:px-5 '>
               <div className=' max-w-[550px] h-[700px] mx-auto border-[1px] border-[#ffffff02] rounded text-white'>
                  <div className=' max-w-[400px] mx-auto py-5'>
                       <h1 className='text-3xl font-bold mb-8 px-3'>Sign Up</h1>

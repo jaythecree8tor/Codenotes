@@ -57,21 +57,21 @@ export const features = [
     {
       id: "features-1",
       content:
-        "Shopping with WALLETECH is even more secure  Buyer Protection.",
-      name: "Create ToDos",
+        "Markdown preview",
+      name: "Create Notes",
        icon:<AiOutlineUnorderedList size={20}/>,
     },
     {
       id: "features-2",
       content:
-        "You can keep using your favorite card and keepgetting rewards.",
+        "You can share on your favorite social media platform",
       name: "Share notes",
       icon:<AiOutlineShareAlt size={20}/>,
     },
     {
       id: "features-3",
       content:
-        "You will only be charged when selling goods or requesting payment.",
+        "use `{{uuid}}` syntax to link to notes within other notes",
       name: "Manage your notes",
       icon:<BsInputCursorText size={20}/>,
     },

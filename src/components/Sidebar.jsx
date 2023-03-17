@@ -14,7 +14,7 @@ const Sidebar = ({
 	const sortedNotes = notes.sort((a, b) => b.lastModified - a.lastModified);
 
 	return (
-		<div className='max-[940px]:pr-0 justify-center py-28 w-[400px] max-[940px]:w-full max-[940px]:h-[50vh]  pr-8 h-[100vh] border-r-2 '>
+		<div className='max-[940px]:pr-0 justify-center py-28 w-[400px] max-[940px]:w-full max-[940px]:h-[70vh]  pr-8 h-[100vh] border-r-2 '>
 			{/* <Banner /> */}
 			<div className=' items-center text-center'>
 				<div className=' justify-center flex'>

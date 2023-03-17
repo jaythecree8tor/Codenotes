@@ -36,8 +36,9 @@ const Navbar = () => {
 			</Link>
 
 			<hr className=' border-[px] border-white  w-[60%] max-[1223px]:hidden' />
-			{user?.email ? (
-				<div className=' max-[700px]:hidden items-center flex'>
+			<div className="flex">
+		{user?.email ? (
+				<div className=' items-center flex'>
 					<Link to='/dashboard'>
                         {user?.email ? (
                           <button className=' text-white pr-4 cursor-pointer '>
@@ -59,7 +60,7 @@ const Navbar = () => {
 
 					<button
 						onClick={handleLogout}
-						className=' rounded-full text-black bg-white hover:bg-[#000000] hover:text-white transition-all duration-300 px-4 py-2 cursor-pointer flex items-center'
+						className='max-[700px]:hidden  rounded-full text-black bg-white hover:bg-[#000000] hover:text-white transition-all duration-300 px-4 py-2 cursor-pointer flex items-center'
 					>
 						Logout &nbsp; <FiLogOut />
 					</button>
@@ -78,8 +79,6 @@ const Navbar = () => {
 					</Link>
 				</div>
 			)}
-
-			{/* sidebar */}
 			<div className='hidden max-[700px]:flex flex-1 justify-end items-center'>
 				<motion.img
 					whileTap={{ scale: 1.3 }}
@@ -95,7 +94,7 @@ const Navbar = () => {
 				>
 					{user?.email ? (
 						<div className='flex-col  flex'>
-							<Link to='/dashboard'>
+							{/* <Link to='/dashboard'>
 								<motion.button
 									onClick={close}
 									whileTap={{ scale: 1.3 }}
@@ -111,7 +110,7 @@ const Navbar = () => {
 						className=' rounded-full h-[30px] w-[30px] border-[2px] border-white'
 					/>
 								</motion.button>
-							</Link>
+							</Link> */}
 							<h3 className='text-white'>{user.email}</h3>
 
 							<button
@@ -141,6 +140,11 @@ const Navbar = () => {
 					)}
 				</div>
 			</div>
+			</div>
+	
+
+			{/* sidebar */}
+			
 		</nav>
 	);
 };

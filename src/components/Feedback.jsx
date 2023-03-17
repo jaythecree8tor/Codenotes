@@ -23,7 +23,7 @@ const Feedback = () => {
         {
           id: "feedback-3",
           comment:
-            "You will only be charged when selling goods or requesting payment.",
+            "Easy to use.",
           name: "Titi Maryam",
           role: "Business analyst",
           img:prf2,
