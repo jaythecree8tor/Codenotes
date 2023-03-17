@@ -81,7 +81,7 @@ export const features = [
     {
       id: "feedback-1",
       comment:
-        "Shopping with WALLETECH is even more secure  Buyer Protection.",
+        " ",
       name: "Create ToDos",
       role: "Create ToDos",
        img:'',

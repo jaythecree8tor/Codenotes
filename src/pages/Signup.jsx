@@ -7,7 +7,7 @@ const Signup = () => {
   const [password, setPassword] = useState('')
 
   const [error, setError] = useState('')
-  const {signUp} = UserAuth()
+  const {signUp,googleSignIn} = UserAuth()
   const navigate = useNavigate()
 
   
@@ -25,13 +25,13 @@ const Signup = () => {
   }
 
 
-//   const handleGoogleSignIn = async () => {
-//     try {
-//       await googleSignIn();
-//     } catch (error) {
+  const handleGoogleSignIn = async () => {
+    try {
+      await googleSignIn();
+    } catch (error) {
       
-//     }
-// }
+    }
+}
 
   return (
     <>
@@ -43,7 +43,7 @@ const Signup = () => {
                       <form onSubmit={handleSumbit} className=''>
                           <h3 className='text-[#acb4ba] mb-2 px-3'>Sign up faster with</h3>
                             <div className='mb-4 flex justify-between flex-wrap'>
-                             <div className='w-full strech px-1 '>
+                             <div className='w-full strech px-1 ' type='submit' onClick={handleGoogleSignIn}>
                                 <button className='my-[4px] transition-all duration-400 text-center justify-center flex items-center capitalize font-[500] rounded-[8px] w-full py-[9px] px-6 bg-[#272727]  text-white cursor-pointer text-[14px] hover:bg-[#585858]'>
                                         <img src={google} alt="" /> &nbsp; google 
                                 </button>
